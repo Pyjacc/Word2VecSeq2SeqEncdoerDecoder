@@ -1,2 +1,9 @@
 # Word2VecSeq2SeqEncdoerDecoder
-Word2VecSeq2SeqEncdoerDecoder
+Word2Vec Encoder Decoder Base Line
+
+AutoMaster_TestSet.csv和AutoMaster_TrainSet.csv都只保留50条原始数据，便于快速调试跑通模型
+在attention.py中实现attention层
+在decoder.py中实现decoder层
+在encoder.py中实现encoder层
+在seq2seq.py中实现seq2seq模型
+在losses.py中定义loss函数
